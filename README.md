@@ -72,7 +72,7 @@ Describe between 1-3 key features of the application.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]( )
+- [Live Demo Link]( https://frankmugagga.github.io/Leaderboard/dist/ )
 
 
 
