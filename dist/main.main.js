@@ -14,7 +14,7 @@
   \**********************/
 /***/ (() => {
 
-eval("// import './style.css';\n\n\n//# sourceURL=webpack://webpackboiler/./src/index.js?");
+eval("//import './style.css';\n\n\n//# sourceURL=webpack://webpackboiler/./src/index.js?");
 
 /***/ })
 
