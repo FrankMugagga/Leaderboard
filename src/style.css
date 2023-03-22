@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Josefin+Sans:wght@600&family=Overpass&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
   font-family: 'Overpass', sans-serif;
 }
 
-body{
+body {
   padding: 20px;
 }
 
@@ -43,7 +44,7 @@ h1 {
 
 li {
   padding: 10px 8px;
-  background: white;  
+  background: white;
 }
 
 li:nth-child(odd) {
@@ -53,6 +54,7 @@ li:nth-child(odd) {
 .sec2 {
   width: 30%;
 }
+
 .form {
   flex-direction: column;
   align-items: flex-end;
@@ -70,5 +72,3 @@ input {
   border-right: 5px solid black;
   border-bottom: 5px solid black;
 }
-
-
