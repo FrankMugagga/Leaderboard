@@ -1,4 +1,4 @@
-//import './style.css';
+import './style.css';
 import { dataPost } from './modules/postGet.js';
 import { refresh } from './modules/display.js';
 
