@@ -1,1 +1,48 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Wbpack Exercise</title><script defer="defer" src="main.js"></script></head><body><h1>Hello webpack!</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web</title>
+<script defer src="runtime.main.js"></script><script defer src="main.main.js"></script></head>
+<body>
+     <h1>Leaderboard</h1>
+
+     <main class="page_main">
+        <section id="sec1" class="sec1">
+            <div class="score_cont">
+                <h2>Recent scores</h2>
+                <button class="btn" id="score_btn">Refresh</button>
+            </div>
+            <br>
+            <ul id="results" class="results">
+                <li>Name: 100</li>
+                <li>Name: 20</li>
+                <li>Name: 50</li>
+                <li>Name:78</li>
+                <li>Name: 125</li>
+                <li>Name: 77</li>
+                <li>Name: 42</li>
+            </ul>           
+        </section>
+
+        <section class="sec2" id="sec2">
+            <h2>Add your score</h2>
+
+            <br>
+            <form id="form" class="form">
+                <input type="text" name="" id="name" placeholder="Your name"> 
+                <br>
+                <input type="number" name="" id="number" placeholder="Your score">
+                <br>
+                <button class="btn" id="submit">Submit</button>
+            </form>
+        </section>
+     </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
+
