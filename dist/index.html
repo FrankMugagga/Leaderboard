@@ -7,35 +7,39 @@
     <link rel="stylesheet" href="style.css">
     <title>Web</title>
 <script defer src="runtime.main.js"></script><script defer src="main.main.js"></script></head>
-<body>
-     <h1>Leaderboard</h1>
+<body> 
+    <div class="container">
+        <h1>Leaderboard</h1>
 
-     <main class="page_main">
-        <section id="sec1" class="sec1">
-            <div class="score_cont">
-                <h2>Recent scores</h2>
-                <button class="btn" id="score_btn">Refresh</button>
-            </div>
-            <br>
-            <span class="error"></span>  
-            <ul id="results" class="results">
-            </ul>  
-                   
-        </section>
+        <main class="page_main">
+           <section id="sec1" class="sec1">
+               <div class="score_cont">
+                   <h2>Recent scores</h2>
+                   <button class="btn" id="score_btn">Refresh</button>
+               </div>
+               <br>
+               <span class="error"></span>  
+               <ul id="results" class="results">
+               </ul>  
+                      
+           </section>
+   
+           <section class="sec2" id="sec2">
+               <h2>Add your score</h2>
+   
+               <br>
+               <form id="form" class="form">
+                   <input type="text" name="name" id="name" placeholder="Your name" required/> 
+                   <br>
+                   <input type="number" name="number" id="number" placeholder="Your score" required/>
+                   <br>
+                   <button class="btn" id="submit">Submit</button>
+               </form>
+           </section>
+        </main>
 
-        <section class="sec2" id="sec2">
-            <h2>Add your score</h2>
-
-            <br>
-            <form id="form" class="form">
-                <input type="text" name="name" id="name" placeholder="Your name" required/> 
-                <br>
-                <input type="number" name="number" id="number" placeholder="Your score" required/>
-                <br>
-                <button class="btn" id="submit">Submit</button>
-            </form>
-        </section>
-     </main>
+    </div>
+    
     
     <script type="module" src="index.js"></script>
 </body>
