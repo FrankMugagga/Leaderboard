@@ -6,7 +6,7 @@ export const display = (data) => {
   const results = document.getElementById('results');
   results.innerHTML = '';
 
-  data = data.sort((a, b) => a.score - b.score);
+  data = data.sort((a, b) => b.score - a.score);
 
   data.forEach(({ user, score }) => {
     const li = document.createElement('li');
