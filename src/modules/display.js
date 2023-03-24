@@ -6,9 +6,11 @@ export const display = (data) => {
   const results = document.getElementById('results');
   results.innerHTML = '';
 
+  data = data.sort((a, b) => b.score - a.score);
+
   data.forEach(({ user, score }) => {
     const li = document.createElement('li');
-    li.textContent = `${user} : ${score}`;
+    li.innerHTML = `<div id="user">${user} </div>: <div id="score">${score}</div>`;
     results.appendChild(li);
   });
 };

@@ -1,6 +1,6 @@
 const error = document.querySelector('.error');
 
-export const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/zksMXAf6kZYPdjevcImM/scores/';
+export const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/uHZ3boOCsi1iPZB1ls0i/scores/';
 
 export const dataPost = async (user, score) => {
   try {
@@ -11,6 +11,7 @@ export const dataPost = async (user, score) => {
     });
 
     const data = await sentData.json();
+    // data = data.sort((a,b) => a-b);
     return data.result;
   } catch (err) {
     error.textContent = 'Unsubmitted Data!, Please try again';
