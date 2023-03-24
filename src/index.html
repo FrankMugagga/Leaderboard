@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Web</title>
-</head>
-<body>
-     <h1>Leaderboard</h1>
+    <title>Leaderboard scores</title>
 
-     <main class="page_main">
-        <section id="sec1" class="sec1">
-            <div class="score_cont">
-                <h2>Recent scores</h2>
-                <button class="btn" id="score_btn">Refresh</button>
-            </div>
-            <br>
-            <span class="error"></span>  
-            <ul id="results" class="results">
-            </ul>  
-                   
-        </section>
+    <div class="container">
+        <h1>Leaderboard</h1>
 
-        <section class="sec2" id="sec2">
-            <h2>Add your score</h2>
+        <main class="page_main">
+           <section id="sec1" class="sec1">
+               <div class="score_cont">
+                   <h2>Recent scores</h2>
+                   <button class="btn" id="score_btn">Refresh</button>
+               </div>
+               <br>
+               <span class="error"></span>  
+               <ul id="results" class="results">
+               </ul>  
+                      
+           </section>
+   
+           <section class="sec2" id="sec2">
+               <h2>Add your score</h2>
+   
+               <br>
+               <form id="form" class="form">
+                   <input type="text" name="name" id="name" placeholder="Your name" required/> 
+                   <br>
+                   <input type="number" name="number" id="number" placeholder="Your score" required/>
+                   <br>
+                   <button class="btn" id="submit">Submit</button>
+               </form>
+           </section>
+        </main>
 
-            <br>
-            <form id="form" class="form">
-                <input type="text" name="name" id="name" placeholder="Your name" required/> 
-                <br>
-                <input type="number" name="number" id="number" placeholder="Your score" required/>
-                <br>
-                <button class="btn" id="submit">Submit</button>
-            </form>
-        </section>
-     </main>
+    </div>
+    
     
     <script type="module" src="index.js"></script>
 </body>
