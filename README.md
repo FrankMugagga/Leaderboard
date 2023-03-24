@@ -62,6 +62,7 @@ Describe the tech stack and include only the relevant sections that apply to you
 Describe between 1-3 key features of the application.
 
 - **[Single page Application]**
+**[Consumes an Api]**
 
 
 
